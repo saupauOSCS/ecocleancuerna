@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  font-family: "Roboto", Arial, serif;
+  line-height: 1.8;
+  font-size: 16px;
+  background: #fff;
+  color: #7a7a7a;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -35,4 +41,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #32338E !important;
+  font-family: "Roboto", Arial, serif;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.contenido__ul {
+  text-align: justify;
 }
