@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ecocleancuerna/static/css/main.a743de23.css",
+    "main.js": "/ecocleancuerna/static/js/main.82506588.js",
+    "static/media/promo_Camisas.jpg": "/ecocleancuerna/static/media/promo_Camisas.80db12951e0291e1da4b.jpg",
+    "static/media/promo_Facebook.jpg": "/ecocleancuerna/static/media/promo_Facebook.1d9917b79af9906ecc56.jpg",
+    "static/media/home-01.jpg": "/ecocleancuerna/static/media/home-01.cf569a0c4249a42673f2.jpg",
+    "static/media/serv-02.jpg": "/ecocleancuerna/static/media/serv-02.53d8c9cd2def9f4f9a67.jpg",
+    "static/media/serv-01.jpg": "/ecocleancuerna/static/media/serv-01.ee54c65b0587187c54d8.jpg",
+    "static/media/promo_3x2.jpg": "/ecocleancuerna/static/media/promo_3x2.2fb531c6d69a6768b742.jpg",
+    "static/media/home-03.jpg": "/ecocleancuerna/static/media/home-03.0d4d6170b29870db431d.jpg",
+    "static/media/serv-03.jpg": "/ecocleancuerna/static/media/serv-03.bd9d972825d34545c7b9.jpg",
+    "static/media/home-04.jpg": "/ecocleancuerna/static/media/home-04.a3f5681dec1f7b33c163.jpg",
+    "static/media/quienesSomos.jpg": "/ecocleancuerna/static/media/quienesSomos.c80f809449a0d9f5d3bd.jpg",
+    "static/media/servicios.jpg": "/ecocleancuerna/static/media/servicios.103b40e5eb1ad3d805d1.jpg",
+    "static/media/home-02.jpg": "/ecocleancuerna/static/media/home-02.46482a6797049798f2bd.jpg",
+    "static/media/serv-05.jpg": "/ecocleancuerna/static/media/serv-05.d25fe7a65798c1c7d3a1.jpg",
+    "static/media/logo.png": "/ecocleancuerna/static/media/logo.c8792c8e07924425d503.png",
+    "static/media/promo_Edredones.jpg": "/ecocleancuerna/static/media/promo_Edredones.7464e0d1f75b1b471109.jpg",
+    "index.html": "/ecocleancuerna/index.html",
+    "main.a743de23.css.map": "/ecocleancuerna/static/css/main.a743de23.css.map",
+    "main.82506588.js.map": "/ecocleancuerna/static/js/main.82506588.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a743de23.css",
+    "static/js/main.82506588.js"
+  ]
+}
