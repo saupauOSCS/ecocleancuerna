@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => setIsNavExpanded(false);
 
   return (
     <>
