@@ -4,6 +4,7 @@ import "../styles/Header.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -11,9 +12,9 @@ function Header() {
       <Container>
         <Row className="align-items-center">
           <Col md={7}>
-            <a href="/">
+            <Link to="/">
               <img className="imgHeader" src={Logo} alt="ECOCLEAN Cuernavaca" />
-            </a>
+            </Link>
           </Col>
           <Col md={5}>
             <div>

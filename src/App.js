@@ -1,7 +1,7 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Services from "./pages/Services";
 import Recomendations from "./pages/Recomendations";
 import Promotions from "./pages/Promotions";
