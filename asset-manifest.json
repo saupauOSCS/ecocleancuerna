@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecocleancuerna/static/css/main.a743de23.css",
-    "main.js": "/ecocleancuerna/static/js/main.82506588.js",
+    "main.js": "/ecocleancuerna/static/js/main.40efb502.js",
     "static/media/promo_Camisas.jpg": "/ecocleancuerna/static/media/promo_Camisas.80db12951e0291e1da4b.jpg",
     "static/media/promo_Facebook.jpg": "/ecocleancuerna/static/media/promo_Facebook.1d9917b79af9906ecc56.jpg",
     "static/media/home-01.jpg": "/ecocleancuerna/static/media/home-01.cf569a0c4249a42673f2.jpg",
@@ -19,10 +19,10 @@
     "static/media/promo_Edredones.jpg": "/ecocleancuerna/static/media/promo_Edredones.7464e0d1f75b1b471109.jpg",
     "index.html": "/ecocleancuerna/index.html",
     "main.a743de23.css.map": "/ecocleancuerna/static/css/main.a743de23.css.map",
-    "main.82506588.js.map": "/ecocleancuerna/static/js/main.82506588.js.map"
+    "main.40efb502.js.map": "/ecocleancuerna/static/js/main.40efb502.js.map"
   },
   "entrypoints": [
     "static/css/main.a743de23.css",
-    "static/js/main.82506588.js"
+    "static/js/main.40efb502.js"
   ]
 }
