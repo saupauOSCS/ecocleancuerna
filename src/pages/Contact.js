@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/Contact.css";
+import Map from "../components/Map";
 
 function Contact() {
   const [values, setValues] = useState({
@@ -56,26 +57,68 @@ function Contact() {
           <div>
             <h2>Contacto</h2>
             <p>
-              Estamos ubicados en &nbsp;
-              <b>
-                PLAZA TAMAYO, calle Rufino Tamayo #52 local 10 Colonia
-                Acapantzingo en Cuernavaca Morelos.
-              </b>
-            </p>
-            <p>Horario:</p>
-            <p>
-              <b>Lunes a Viernes de 8:00 a 18:00 Hrs.</b>
-            </p>
-            <p>
-              <b>Sábado de 9:00 a 16:00 Hrs.</b>
-            </p>
-            <br />
-            <p>
               Permítanos atenderle, puede comunicarse al teléfono que aparece en
               esta página o visitarnos personalmente. ¡Le aseguramos limpieza a
               conciencia en cada una de sus prendas! ¡Venga y descubra cómo le
               facilitamos el cuidado de su ropa!
             </p>
+            <p>
+              <b>Dirección:</b>
+              <br />
+              PLAZA TAMAYO, calle Rufino Tamayo #52 local 10 Colonia
+              Acapantzingo en Cuernavaca, Morelos.
+            </p>
+
+            <p>
+              <b>Horario de atención:</b>
+              <table itemprop="openingHours">
+                <tbody>
+                  <tr>
+                    <th className="x2TOCf">lun:</th>
+                    <td className="o0m3Qb">
+                      <span className="WF8WNe">8:00–18:00</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th className="x2TOCf">mar:</th>
+                    <td className="o0m3Qb">
+                      <span className="WF8WNe">8:00–18:00</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th className="x2TOCf">mié:</th>
+                    <td className="o0m3Qb">
+                      <span className="WF8WNe">8:00–18:00</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th className="x2TOCf">jue:</th>
+                    <td className="o0m3Qb">
+                      <span className="WF8WNe">8:00–18:00</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th className="x2TOCf">vie:</th>
+                    <td className="o0m3Qb">
+                      <span className="WF8WNe">8:00–18:00</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th className="x2TOCf">sáb:</th>
+                    <td className="o0m3Qb">
+                      <span className="WF8WNe">9:00–16:00</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th className="x2TOCf">dom:</th>
+                    <td className="o0m3Qb">
+                      <span className="WF8WNe">Cerrado</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+
             <br />
           </div>
         </div>
@@ -95,7 +138,7 @@ function Contact() {
                     placeholder="Nombre"
                     required
                   />
-                  <label for="userName">Nombre</label>
+                  <label htmlFor="userName">Nombre</label>
                 </div>
               </div>
               <div className="form-floating mb-3">
@@ -108,7 +151,7 @@ function Contact() {
                     placeholder="Email"
                     required
                   />
-                  <label for="userEmail">Email</label>
+                  <label htmlFor="userEmail">Email</label>
                 </div>
               </div>
               <div className="form-floating mb-3">
@@ -121,7 +164,7 @@ function Contact() {
                     placeholder="Teléfono"
                     required
                   />
-                  <label for="userPhone">Teléfono</label>
+                  <label htmlFor="userPhone">Teléfono</label>
                 </div>
               </div>
               <div className="form-floating mb-4">
@@ -133,7 +176,7 @@ function Contact() {
                     id="mensaje"
                     styles="height: 120px"
                   ></textarea>
-                  <label for="mensaje">Mensaje</label>
+                  <label htmlFor="mensaje">Mensaje</label>
                 </div>
               </div>
               <div className="form-floating mb-3">
@@ -144,6 +187,18 @@ function Contact() {
             </form>
           </div>
         </div>
+      </div>
+      <div className="col-sm-12">
+        <h2>Visítanos</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.476435256469!2d-99.22692838562564!3d18.910294362075284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cddf078b99b76b%3A0x52bfc5a08c61502d!2sTintoreria%20y%20Lavanderia%20ECOCLEAN!5e0!3m2!1sen!2sus!4v1669744599189!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style={{ border: "0" }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </div>
   );

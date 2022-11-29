@@ -17,7 +17,7 @@ function Header() {
             </Link>
           </Col>
           <Col md={5}>
-            <div>
+            <div className="hidden-mobile">
               <h4 className="d-flex justify-content-end">
                 ecocleancuerna@gmail.com
               </h4>
